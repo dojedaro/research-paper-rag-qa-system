@@ -13,6 +13,19 @@ Unlike lightweight RAG demos, this system emphasizes **data cleanliness, retriev
 
 ## 🌐 Live Demo (Streamlit via ngrok)
 
+
+## 🖼️ Application Screenshots
+
+### User Login & Session Initialization
+![User Login](screenshots/User%20Interface%20%26%20Log%20in.png)
+
+### Technical Research Conversation (Example 1)
+![Technical Chat 1](screenshots/Technical%20Chat%201.png)
+
+### Technical Research Conversation (Example 2)
+![Technical Chat 2](screenshots/Technical%20Chat%202.png)
+
+
 ⚠️ **Deployment Note (Intentional Design Choice)**  
 This application runs on **Streamlit locally** and is exposed publicly via **ngrok**.  
 It is **not deployed on Streamlit Cloud**.
