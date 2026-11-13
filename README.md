@@ -5,9 +5,9 @@
 
 ## 🚀 Overview
 
-This project is a **production-style Retrieval-Augmented Generation (RAG) system** designed to answer **technical research questions** directly from **academic AI research papers** with **strict source grounding**, **conversation memory**, and **quantitative evaluation**.
+This project is a **Retrieval-Augmented Generation (RAG) system** designed to answer **technical research questions** directly from **academic AI research papers** with **strict source grounding**, **conversation memory**, and **quantitative evaluation**.
 
-Unlike lightweight RAG demos, this system emphasizes **data cleanliness, retrieval rigor, explainability, and evaluation**, reflecting how real-world RAG systems are engineered, tested, and monitored.
+It focuses on **data cleaning, hybrid retrieval and source grounding**, and includes evaluation code whose results are not yet saved in the repository (see Limitations).
 
 ---
 
