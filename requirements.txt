@@ -1,0 +1,24 @@
+# Packages the notebook imports or installs. Versions were not recorded when it was run;
+# pin them (pip freeze) after a successful run to make it fully reproducible.
+bert-score
+chromadb
+matplotlib
+numpy
+openai
+pandas
+plotly
+pyngrok
+PyPDF2
+python-dateutil
+rank-bm25
+requests
+rouge-score
+scikit-learn
+seaborn
+sentence-transformers
+streamlit
+textstat
+tiktoken
+torch
+transformers
+wordcloud
