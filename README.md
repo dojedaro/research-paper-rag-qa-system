@@ -1,5 +1,5 @@
 # 📚 Research Paper Answer Bot  
-**Production-Style Retrieval-Augmented Generation (RAG) System**  
+**Retrieval-augmented question answering over five landmark AI papers, with hybrid BM25 + semantic retrieval and strict source grounding**  
 
 ---
 
@@ -11,7 +11,6 @@ Unlike lightweight RAG demos, this system emphasizes **data cleanliness, retriev
 
 ---
 
-## 🌐 Live Demo (Streamlit via ngrok)
 
 
 ## 🖼️ Application Screenshots
