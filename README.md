@@ -120,12 +120,12 @@ jupyter notebook research_paper_rag_qa_system.ipynb
 
 The notebook builds the index, writes the Streamlit app and launches it on port 8501. It asks for an
 OpenAI API key and, to share a public link, an ngrok auth token (both read at runtime, never
-stored in the repo). The retriever blends semantic and BM25 scores with `alpha = 0.7` toward the
-semantic side.
+stored in the repo).
 
 ## 🧰 Stack
 
-Python, OpenAI API (GPT-4), rank-bm25, sentence embeddings, Streamlit, ngrok, pandas, Matplotlib.
+Python, OpenAI API (GPT-4), rank-bm25 and TF-IDF keyword indexes, sentence-transformers
+(all-MiniLM-L6-v2, all-mpnet-base-v2), Streamlit, ngrok, pandas, Matplotlib.
 
 ## ⚠️ Limitations and next steps
 
