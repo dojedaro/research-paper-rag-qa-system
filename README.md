@@ -108,4 +108,40 @@ GPT-4 / Professional Fallback Generator
    ↓
 Answer + Sources + Confidence + Metrics
 
+---
 
+## ▶️ Run it
+
+```bash
+pip install -r requirements.txt
+unzip "Research Papers.zip" -d papers
+jupyter notebook research_paper_rag_qa_system.ipynb
+```
+
+The notebook builds the index, writes the Streamlit app and launches it on port 8501. It asks for an
+OpenAI API key and, to share a public link, an ngrok auth token (both read at runtime, never
+stored in the repo).
+
+## 🧰 Stack
+
+Python, OpenAI API (GPT-4), rank-bm25 and TF-IDF keyword indexes, sentence-transformers
+(all-MiniLM-L6-v2, all-mpnet-base-v2), Streamlit, ngrok, pandas, Matplotlib.
+
+## ⚠️ Limitations and next steps
+
+- **The notebook is committed without outputs**, so the evaluation it implements (retrieval relevance,
+  source coverage, latency, embedding benchmarks) has no saved numbers to show here. Rerunning it and
+  committing a results table is the next step.
+- The relevance and confidence scores are heuristics; a small set of questions with known answer
+  passages would measure retrieval directly (hit rate and MRR on the five papers).
+- `gpt-4` is an older model name; any current OpenAI chat model works in its place.
+
+Part of a series of RAG projects: [strict PDF QA](https://github.com/dojedaro/strict-pdf-question-answering) ·
+[PDF RAG + ReAct agent](https://github.com/dojedaro/pdf-rag-react-agent-langchain) ·
+[policy QA with evaluation](https://github.com/dojedaro/openai-rag-policy-qa-evaluation) ·
+[10-K retrieval evaluation](https://github.com/dojedaro/coca-cola-10k-retrieval-evaluation) ·
+**research-paper RAG**
+
+## License
+
+MIT
